@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction:  column;
+    background-color: #202024;
+    font-family: sans-serif;
+    
+}
+.you{
+    display: flex;
+    
+   
+    align-items: center;
+    height: 4em;
+    gap: 1em;
+    padding: 1em;
+}
+.logo{
+    display: flex;
+    background-image: url("/img/");
+    align-items: center;
+    border: 1px solid black;
+    width: 3em;
+    height: 3em;
+}
+.search{
+    display: flex;
+    flex: 1;
+    position: relative;
+    align-items: center;
+    height: 4em;
+    border-radius: 2em;
+}
+.iconsearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+    right: 1em;
+    top: 1em;
+    width: 2em;
+    border-radius: 100%;
+    height: 2em;background-color: #4a72f5;
+}
+input[type="search"]{
+    padding-left: 1em;
+    padding-right: 3em;
+    position: relative;
+    background-color: #3c3c3e;
+    outline: none;
+    border: transparent;
+}
+.icon1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2em;
+    height: 2em;
+    color: #4a72f5;
+
+}
+.acesso{
+    display: flex;
+    justify-content: end;
+    gap: 2em;
+    align-items: center;
+    flex: 1;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aeaeb2;
+    border: 1px solid #aeaeb2;
+    padding: .5em;
+    border-radius: 2em;
+    text-transform: capitalize;
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    align-items: center;
+    color: #aeaeb2;
+    border: 1px solid black;
+    padding: .5em;
+    
+    border-radius: 2em;
+    
+}
+.profile{
+    display: flex;align-items: center;
+    width: 4em;
+    height: 2em;
+    position: relative;
+    border-radius: 1em;
+    background-color: #202024 ;
+    border: 1px solid #aeaeb2;
+}
+.profileicon{
+    display: flex;
+    position: absolute;
+    left: .5em;
+    justify-content: center;
+    align-items: center;
+    background-color: #668aff;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 100%;
+}
+
+.container{
+    display: flex;
+    flex: 1;
+
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    
+    width: 10em;
+    
+    
+    align-items: flex-start;
+    padding: 1em;
+    gap: 2em;
+}
+.title{
+    display: flex;
+    color: white;
+    padding: ;
+    gap: 1em;
+    text-transform: capitalize;
+}
+
+.articulos{
+    display: flex;
+    color: #aeaeb2;
+    gap: 1em;
+    text-transform: capitalize;
+}
+.iconn{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.iconnn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: #202024;
+    background-color: white;
+    border-radius: 100%;
+    width: 1.5em;
+    height: 1.5em;
+}
+.articulo2{
+    display: flex;
+    gap: 1em;
+    
+    color: white;
+}
+.articulo1{
+    display: flex;
+    gap: 1em;
+    word-wrap: break-word;
+    color: #4a72f5;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2em;
+    height: 2em;
+    border-radius: .4em;
+    border: 1px solid #aeaeb2;
+    background-color: #696b6c;
+}
+.for{
+    color: white;
+    text-transform: capitalize;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    padding-right: 3em;
+    flex: 1;
+    gap: 1em;
+}
+
+hr{
+    display: flex;
+    background-color: white;
+    height: 1px;
+    outline: none;
+    border: transparent;
+}
+.title2{
+    display: flex;
+    
+    height: 1em;
+    justify-content: space-between;
+    text-transform: capitalize;
+    color: white;
+    gap: 1em;
+}
+.title4{
+    display: flex;
+    flex: 1;
+    height: 1em;
+    justify-content: space-between;
+    text-transform: capitalize;
+    color: white;
+    gap: 1em;
+}
+.mesage{
+    width: 1em;
+    background-color: #aeaeb2;
+    height: 1em;
+}
+#linea{
+    display: flex;
+    background-color: white;
+    height: 1em;
+    width: 1px;
+    
+}
+.like{
+    display: flex;
+    gap: .5em;
+    padding-right: .5em;
+}
+.likes{
+    display: flex;
+    
+    width: 1em;
+    height: 1em;
+    background-color: #aeaeb2;
+}
+
+.subcontainer2{
+    display: flex;
+    gap: 1em;
+    
+}
+.text{
+    display: flex;
+    flex: 1;
+    border: 1px solid white;
+    color: #aeaeb2;
+    background-color: #3c3c3e;
+    padding: 1em;
+    gap: 1em;
+    border-radius: 1em;
+    
+}
+.contenttext{
+    display: flex;
+    flex: 1;
+}
+a{
+    text-decoration: none;
+    color: #aeaeb2;
+}
+.text1{
+    display: flex;
+    gap: 1em;
+}
+.img{
+    object-fit: fill;
+    width: 10em;
+    height: 10em;
+
+}
+.icon3{
+    display: flex;
+    background-color: #aeaeb2;
+    width: 1em;
+    height: 1em;
+}
+
+.text2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border: 1px solid white;
+    color: #aeaeb2;
+    background-color: #3c3c3e;
+    padding: 1em;
+    gap: 1em;
+    border-radius: 1em;
+}
+.text3{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    border-bottom: 1px solid #aeaeb2;
+}
+.icontext3{
+    width: 1em;
+    height: 1em;
+    background-color: #696b6c;
+}
+.titulotext{
+    display: flex;
+}
+
+
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    position: relative;
+    background-color: #3c3c3e;
+    color: white;
+    gap: 2em;
+    flex: 1;
+
+}
+.equis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2em;
+    position: absolute;
+    right: 1em;
+    height: 2em;
+    background-color: #202024;
+    border-radius: 100% ;
+}
+.title3{
+    display: flex;
+    padding-top: 5em;
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+
+.link1{
+    display: flex;
+    justify-content: space-between;
+    
+    border-bottom: 1px solid #aeaeb2;
+}
+.arrow{
+    display: flex;
+    width: 1em;
+    height: 1em;
+    background-color: #aeaeb2;
+}
+
+
+.pie{
+    display: flex;
+    flex-direction: column;
+    background-image: url("./img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+    gap: 1em;
+}
+.titlepie{
+    display: flex;
+    color: #aeaeb2;
+}
+.textpie{
+    display: flex;
+    color: #aeaeb2;
+}

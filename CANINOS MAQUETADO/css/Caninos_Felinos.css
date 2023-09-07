@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    gap: 1em;
+   
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 1em;
+    background-size: cover;
+    background-image: url(../img/fondo.jpeg);
+    font-size: 15px;
+
+}
+.subhead{
+    display: flex;
+    flex: 1;
+    padding: 1em;
+}
+.business{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    
+    
+}
+.namebusiness{
+    display: flex;
+    margin-left: 7em;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+.subname{
+    display: flex;
+    
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 5em;
+    object-fit: cover;
+}
+.imglogo{
+    display: flex;
+    
+    width: 9em;
+    height: 9em;
+}
+
+
+.menu{
+    display: flex;
+    height: 5em;
+    background-color: rgba(7, 63, 7, 0.829);
+    border-bottom-left-radius:  .5em;
+    border-bottom-right-radius: .5em;
+}
+ul{
+    display: flex;
+    flex: 1;
+
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+#linemain{
+    display: flex;
+     justify-content: center;
+    margin: 1.5em;
+    height: 2em;
+}
+
+
+
+
+.contenedor{
+    display: flex;
+    flex: 1;
+    gap: 1em;
+    
+}
+
+.contenttext{
+    display: flex;
+    
+    flex-direction: column;
+    gap: 1em;
+}
+.card1{
+    display: flex;
+    padding: 1em;
+    flex: 1;
+    flex-direction: column;
+    background-color: lemonchiffon;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+}
+.card2{
+    display: flex;
+    padding: 1em;
+    flex: 1;
+    flex-direction: column;
+    background-color: lemonchiffon;
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+.imgtext{
+    display: flex;
+}
+#click{
+    display: flex;
+    color: blue;
+    text-decoration: none;
+}
+.imgdog{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 1em;
+    width: 8em;
+    height: 8em;
+}
+
+#form{
+    display: flex;
+    gap: 2em;
+    background-color: rgba(7, 63, 7, 0.616);
+    flex-direction: column;
+    width: 63em;
+    border-radius: 2em;
+}
+.title{
+    display: flex;
+    height: 5em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 46, 1);
+    color: #fff;
+}
+.animal{
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    text-transform: capitalize;
+    color: #fff;
+    gap: 1em;
+}
+.infoanimal{
+    display: flex;
+    
+}
+.text{
+    display: flex;
+    width: 7em;
+}
+input{
+    display: flex;
+    width: 100%;
+    flex: 1;
+}
+input::placeholder{
+    text-transform: capitalize;
+}
+
+.button{
+    display: flex;
+    height: 5em;
+    justify-content: center;
+    width: 30;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    height: 7em;
+    background-color: rgba(7, 63, 7, 0.829);
+    
+}
